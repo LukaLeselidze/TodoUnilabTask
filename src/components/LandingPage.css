@@ -1,0 +1,46 @@
+.landing-page{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+}
+
+.box{
+    margin-top: 12rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box h1 {
+    color: #ffffff;
+    margin-top: 7rem;
+}
+
+.link-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.get-started{
+    background-color: #5EFC8D;
+    color: #000000;
+    border-radius: .5rem;
+    position: absolute;
+    bottom: 15rem;
+    width: 12rem;
+    font-size: 2rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.get-started:hover{
+    background-color: #FFFFFF;
+    border: 2px solid #5EFC8D;
+    transition: all 0.3s ease-out;
+}
